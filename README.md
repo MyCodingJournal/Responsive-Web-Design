@@ -1,5 +1,8 @@
 # Responsive-Web-Design
-www.freecodecamp.org/learn/responsive-web-design
+##### Codes from freecodecamp practices for referencing.
+- https://www.freecodecamp.org/jayz-lab
+- www.freecodecamp.org/learn/responsive-web-design
+
 1. Basic HTML
 2. Basic CSS
 3. Applied Visual Design
@@ -8,5 +11,9 @@ www.freecodecamp.org/learn/responsive-web-design
 6. CSS Flexbox
 7. CSS Grid
 8. Responsive Web Projects
-
-##### Codes from freecodecamp practices for referencing.
+    - Web Design certification.
+      - Build a Tribute Page
+      - Build a Survey Form
+      - Build a Product Landing Page
+      - Build a Technical Documentation Page
+      - Build a Personal Portfolio Webpage

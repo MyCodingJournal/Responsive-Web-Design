@@ -1,17 +1,19 @@
 <h2>CatPhotoApp</h2>
 <main>
   <p>Click here to view more <a href="#">cat photos</a>.</p>
-
+<!--dead links with #-->
   <a href="#"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
-<div>
+<!--nested img tag within a tag. ie. clickable image-->
+ <!-- a tag are used for external and internal linking-->
+  <div><!--multiple elements nested in a single div element-->
   <p>Things cats love:</p>
-  <ul>
+  <ul><!--unordered list-->
     <li>cat nip</li>
     <li>laser pointers</li>
     <li>lasagna</li>
   </ul>
   <p>Top 3 things cats hate:</p>
-  <ol>
+  <ol><!-- ordered list-->
     <li>flea treatment</li>
     <li>thunder</li>
     <li>other cats</li>
@@ -19,12 +21,17 @@
 </div>
   <!-- submit data to a server by specifying an action attribute-->
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
+    
+    <!--best practice to use "for" attribute to describe the label with the same ID-->
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
     <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
+ <!--standards: examples--> <!--value attribute =  form data = example: personality=loving-->
     <label for="loving"><input id="loving" type="checkbox" name="personality" value="loving" checked> Loving</label>
     <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
+ <!--standards: examples--> 
     <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
+    
     <!--submit button sends form to the URL specified in the action attribute-->
     <button type="submit">Submit</button>
   </form>

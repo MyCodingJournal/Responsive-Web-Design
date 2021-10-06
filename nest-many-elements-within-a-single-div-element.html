@@ -17,6 +17,7 @@
     <li>other cats</li>
   </ol>
 </div>
+  <!-- submit data to a server by specifying an action attribute-->
   <form action="https://www.freecatphotoapp.com/submit-cat-photo">
     <label for="indoor"><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
     <label for="outdoor"><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label><br>
@@ -24,6 +25,7 @@
     <label for="lazy"><input id="lazy" type="checkbox" name="personality" value="lazy"> Lazy</label>
     <label for="energetic"><input id="energetic" type="checkbox" name="personality" value="energetic"> Energetic</label><br>
     <input type="text" placeholder="cat photo URL" required>
+    <!--submit button sends form to the URL specified in the action attribute-->
     <button type="submit">Submit</button>
   </form>
 </main>
